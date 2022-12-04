@@ -9,9 +9,20 @@
 			"type": "coreclr",
 			"request": "launch",
 			"preLaunchTask": "build-day01",
-			"program": "${workspaceFolder}/day01/bin/Debug/net7.0/day01.dll",
+			"program": "${workspaceFolder}/day01/bin/Debug/net7.0/aoc.dll",
 			"args": [],
 			"cwd": "${workspaceFolder}/day01",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
+		{
+			"name": "day2",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build-day02",
+			"program": "${workspaceFolder}/day02/bin/Debug/net7.0/aoc.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/day02",
 			"console": "internalConsole",
 			"stopAtEntry": false
 		},
