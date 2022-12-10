@@ -48,6 +48,28 @@
 			"console": "internalConsole",
 			"stopAtEntry": false
 		},
+		{
+			"name": "day5",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build-day05",
+			"program": "${workspaceFolder}/day05/bin/Debug/net7.0/aoc.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/day05",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
+		{
+			"name": "day6",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build-day06",
+			"program": "${workspaceFolder}/day06/bin/Debug/net7.0/aoc.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/day06",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
 			{
 			"name": ".NET Core Attach",
 			"type": "coreclr",
