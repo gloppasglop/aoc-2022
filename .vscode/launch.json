@@ -93,6 +93,17 @@
 			"stopAtEntry": false
 		},
 		{
+			"name": "day9",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build-day09",
+			"program": "${workspaceFolder}/day09/bin/Debug/net7.0/aoc.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/day09",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
+		{
 			"name": ".NET Core Attach",
 			"type": "coreclr",
 			"request": "attach"
