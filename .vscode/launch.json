@@ -125,6 +125,17 @@
 			"console": "internalConsole",
 			"stopAtEntry": false
 		},
+		{
+			"name": "day12",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build-day12",
+			"program": "${workspaceFolder}/day12/bin/Debug/net7.0/aoc.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/day12",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
 		{		
 			"name": ".NET Core Attach",
 			"type": "coreclr",
